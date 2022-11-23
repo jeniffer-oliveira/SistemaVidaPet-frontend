@@ -21,7 +21,6 @@ const routes: Routes = [
   {path: 'clientes-func', component: ClientesComponent},
   {path: 'nova-consulta', component: NovaConsultaComponent}
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

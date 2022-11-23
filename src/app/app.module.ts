@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
-import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PaginaInicialComponent } from './components/pages/adm/pagina-inicial/pagina-inicial.component';
 import { FuncionariosComponent } from './components/pages/adm/funcionarios-adm/funcionarios.component';
@@ -21,7 +20,6 @@ import { HistoricoComponent } from './components/pages/cliente/historico/histori
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    MenuComponent,
     FooterComponent,
     PaginaInicialComponent,
     FuncionariosComponent,
