@@ -1,0 +1,17 @@
+.container-fluid{
+    background-color: #D1F8EE;
+}
+
+.offcanvas{
+    background-color: #D1F8EE;
+}
+
+.offcanvas-body{
+    background-color: #D1F8EE;
+}
+
+.navbar.custom {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}

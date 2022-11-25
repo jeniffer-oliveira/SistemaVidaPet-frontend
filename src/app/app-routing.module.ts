@@ -8,6 +8,7 @@ import { ServicosComponent } from './components/pages/adm/servicos/servicos.comp
 import { AgendarConsultaComponent } from './components/pages/cliente/agendar-consulta/agendar-consulta.component';
 import { HistoricoComponent } from './components/pages/cliente/historico/historico.component';
 import { ClientesComponent } from './components/pages/funcionarios/clientes-func/clientes.component';
+import { ConsultasComponent } from './components/pages/funcionarios/consultas/consultas.component';
 import { NovaConsultaComponent } from './components/pages/funcionarios/nova-consulta/nova-consulta.component';
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path: 'agendar-consulta', component: AgendarConsultaComponent},
   {path: 'historico', component: HistoricoComponent},
   {path: 'clientes-func', component: ClientesComponent},
-  {path: 'nova-consulta', component: NovaConsultaComponent}
+  {path: 'nova-consulta', component: NovaConsultaComponent},
+  {path: 'consultas', component: ConsultasComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -14,6 +14,7 @@ import { ServicosComponent } from './components/pages/adm/servicos/servicos.comp
 import { NovaConsultaComponent } from './components/pages/funcionarios/nova-consulta/nova-consulta.component';
 import { AgendarConsultaComponent } from './components/pages/cliente/agendar-consulta/agendar-consulta.component';
 import { HistoricoComponent } from './components/pages/cliente/historico/historico.component';
+import { ConsultasComponent } from './components/pages/funcionarios/consultas/consultas.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HistoricoComponent } from './components/pages/cliente/historico/histori
     NovaConsultaComponent,
     AgendarConsultaComponent,
     HistoricoComponent,
+    ConsultasComponent,
   ],
   imports: [
     BrowserModule,
